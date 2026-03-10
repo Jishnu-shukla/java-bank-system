@@ -3,10 +3,12 @@ import java.util.*;
 public class Main {
     public static void main(String args[]) {
 
+        System.out.println("This is the first change");
+
         Scanner sc = new Scanner(System.in);
         BankAccount current = null;
         BankAccount savings = null;
-        
+
         //Creates customer
         System.out.print("Enter the name of Customer: ");
         String name = sc.next();
