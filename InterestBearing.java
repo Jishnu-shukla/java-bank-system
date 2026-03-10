@@ -1,3 +1,3 @@
 public interface InterestBearing {
-    double calculateInterest();
+    double calculateInterest();   
 }
